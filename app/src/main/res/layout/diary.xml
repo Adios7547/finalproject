@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/DatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <EditText
+        android:id="@+id/EditDiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DatePicker"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFA07A"
+        android:lines="10" />
+
+    <Button
+        android:id="@+id/BtnWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditDiary"
+        android:layout_centerHorizontal="true"
+        android:enabled="false"
+        android:text="추가"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/grandfather"
+        android:label="노인"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Survey" />
+        <activity android:name=".Result1" />
+        <activity android:name=".Result2" />
+        <activity android:name=".Site" />
+        <activity android:name=".Mathtest" />
+        <activity android:name=".Mathresult" />
+        <activity android:name=".Prevent" />
+        <activity android:name=".Diary" />
+        <activity android:name=".Video" />
+        <activity android:name=".Login" />
+        <activity android:name=".Join" />
+        <activity android:name=".Board" />
+        <activity android:name=".List1" />
+        <activity android:name=".List2" />
+    </application>
+
+</manifest>
